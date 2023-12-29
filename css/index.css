@@ -1,18 +1,107 @@
-body{
+body {
     font-size: 16px;
+    
 }
-h1,h2{
+.navbar {
+    background-color: #ffffff;
+}
+
+h1,h2 {
     font-size: 1em;
 }
-.btn-primary{
+.row {
+    background-color: #fbfaf8;
+    width: auto;
+}
+.btn-primary {
     background-color: yellowgreen;
 }
-@media(max-width: 768px) {
-    /* Styles for screens smaller than 600px */
-    h1,h2 {
-      font-size: 0.8em;
+.custom-style1{
+    display: flex;
+    background-color: rgb(41, 41, 41);
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 100%;
+    justify-content: center;
+    
+}
+.box{
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 200px;
+    height: 160px;
+    margin: 50px; 
+}
+svg{
+    background-color: yellowgreen;
+}
+.box svg{
+    display: inline-flex;
+}
+ .box h2, p{
+    display: inline;
+    margin: 0;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+}
+.logo{
+    text-align: center;
+}
+.col-sm-3 ul li{
+    list-style: none;
+    text-align: center;
+   
+}
+.row .col-sm-3{
+    background-color: #ffffff;
+}
+@media(max-width: 600px) {
+    h1, h2 {
+        font-size: 0.8em;
     }
-    .row{
-        grid-template-columns: repeat(2, 1fr);
+
+    .custom-style1 {
+        flex-direction: row; /* Display boxes inline on smaller screens */
+        align-items: center; /* Center boxes horizontally */
+        justify-content:center; /* Add space around the boxes */
+        min-height: 100vh;
     }
+
+    .box {
+        display: inline-flex; /* Each box takes up the full width when displayed inline */
+        margin: 15px;
+        height: 100%;
+    }
+    
   }
+  @media(max-width: 768px){
+
+    .custom-style1{
+       display:flex;
+      justify-content: center;
+      margin-inline: 50vh;
+      height: 50vh; 
+      
+    }
+    .box{
+        display:inline-flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 10px; 
+        height: 100px;
+        justify-content: space-between;
+
+    }
+    .box h2, p{
+        text-align: center;
+        font-size: 1em;
+    }
+
+  }
+ 
