@@ -1,0 +1,83 @@
+.nav-bar
+{
+    position: relative;
+    top: 0;
+    z-index: 10;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: black !important;
+    font-display: bold;
+    float: right;
+    text-align: left;
+}
+.image1
+{
+    width: 20px;
+    margin: 10px;
+}
+
+/*---------------banner section-------------*/
+#banner
+{
+   background-color: darkgray;
+}
+.contact-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+}
+
+.image{
+    align-items: center;
+    justify-content: center;
+    margin-left: 38%;
+}
+
+/*---------------------About us-------------------*/
+#about-store
+{
+    padding: 80px 0;
+}
+.about-store
+{
+    padding: 20px;
+}
+.store-img
+{
+    width: 250px;
+    margin-top: 20px;
+}
+
+/*--------------------status----------------*/
+.BoxModel{
+    background-color: #000000;
+    padding: 10px; 
+}
+
+.box{
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 200px;
+    height: 160px;
+    margin: 50px; 
+}
+i{
+    color: yellowgreen;
+}
+@media(max-width: 600px) {
+   .image{
+    margin-left: 10vh;
+   }
+
+}
