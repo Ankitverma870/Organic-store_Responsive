@@ -61,20 +61,39 @@ svg{
 .row .col-sm-3{
     background-color: #ffffff;
 }
+.advetisment{
+    background-color: #000000;
+    display: flex;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+
+   
+}
+.advetisment .btn-primary{
+    margin-left: 50vw;
+    height: 50px;
+}
+
+
+
+
+
+
 @media(max-width: 600px) {
     h1, h2 {
         font-size: 0.8em;
     }
 
     .custom-style1 {
-        flex-direction: row; /* Display boxes inline on smaller screens */
-        align-items: center; /* Center boxes horizontally */
-        justify-content:center; /* Add space around the boxes */
+        flex-direction: row; 
+        align-items: center;
+        justify-content:center; 
         min-height: 100vh;
     }
 
     .box {
-        display: inline-flex; /* Each box takes up the full width when displayed inline */
+        display: inline-flex;
         margin: 15px;
         height: 100%;
     }
@@ -104,4 +123,3 @@ svg{
     }
 
   }
- 

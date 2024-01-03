@@ -1,6 +1,6 @@
 .nav-bar
 {
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 10;
 }
@@ -30,11 +30,14 @@
 {
     font-size: 40px;
     font-weight: 600;
+    text-align: center;
+    justify-content: center;
 }
 
-.image-fluid
-{
+.image{
     align-items: center;
+    justify-content: center;
+    margin-left: 38%;
 }
 
 /*---------------------About us-------------------*/
@@ -53,6 +56,11 @@
 }
 
 /*--------------------status----------------*/
+.BoxModel{
+    background-color: #000000;
+    padding: 10px; 
+}
+
 .box{
     background-color: #333;
     color: #ffffff;
@@ -63,4 +71,13 @@
     width: 200px;
     height: 160px;
     margin: 50px; 
+}
+i{
+    color: yellowgreen;
+}
+@media(max-width: 600px) {
+   .image{
+    margin-left: 10vh;
+   }
+
 }
